@@ -1,4 +1,4 @@
-package moules;
+package modules;
 
 import org.openqa.selenium.WebDriver;
 import pages.SubscribePage;

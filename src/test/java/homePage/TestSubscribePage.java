@@ -1,6 +1,6 @@
 package homePage;
 
-import moules.Subscribe;
+import modules.Subscribe;
 import org.testng.Assert;
 import org.testng.SkipException;
 import org.testng.annotations.*;
