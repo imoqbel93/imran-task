@@ -23,7 +23,7 @@ public class TestSubscribePage extends Countries {
     public void beforeMethod() {
         driver = new ConfigsWebDriver();
         subscribe = new Subscribe(driver.getWebDriver());
-        driver.getWebDriver().get("https://subscribe.jawwy.tv/" + country);
+        driver.getWebDriver().get("https://subscribe.jawwy.tv/" + country );
     }
 
     @Test(description = "Check the Trail cards appears on subscribe page")
